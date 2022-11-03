@@ -1,0 +1,32 @@
+/* Подключение CSS
+
+@import url('./base.css');
+@import url("../fonts/gilroy.css");
+
+@import url('./header.css');
+@import url('./intro.css');
+@import url('./about.css');
+@import url('./skills.css');
+@import url('./portfolio.css');
+@import url('./footer.css');
+
+ */
+
+/* CONTAINER */
+.container{
+    max-width: 973.61px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* --------- */
+
+.section__title{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.section__subtitle {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+}

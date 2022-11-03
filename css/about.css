@@ -1,0 +1,24 @@
+.about {
+    background-color: #f6f6f6;
+    margin-top: 100px;
+    padding: 120px 0;
+}
+.about__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about__title {
+    margin-bottom: 17px;
+}
+.about__text{
+    font-family: 'Gilroy-medium';
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.about__text:last-child{
+    margin-bottom: 0px;
+}
